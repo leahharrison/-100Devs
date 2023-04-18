@@ -1,0 +1,61 @@
+html{
+    width: 787px;
+}
+body{
+    background: lightskyblue;
+    border: 5px solid limegreen;
+}
+.navFont{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+h1{
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-style: semi-bold;
+    font-size: 30px;
+    color: white;
+    padding: 0 50px;
+}
+img{
+    width: 200px;
+    float: right;
+    padding: 0 30px 20px 30px;
+}
+p{
+    font-family: serif;
+    font-weight: 300;
+    font-style: light;
+    font-size: 20px;
+    color: white;
+    padding: 0 50px;
+
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+}
+ul > li{
+    color: white;
+}
+a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-style: semi-bold;
+    font-size: 15px;
+    color: limegreen;
+    text-decoration: underline;
+}
+
+span{
+    color: darkgrey;
+}
