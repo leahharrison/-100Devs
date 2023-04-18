@@ -1,0 +1,59 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background: black;
+}
+nav {
+  border-right: 1px solid white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.firstSection, span{
+  color: gray;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  gap: 3%;
+  width: 60%;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-between;
+}
+.secondSection {
+  display: flex;
+  align-items: flex-end;
+  gap: 3%;
+}
+.thirdSection {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+.quarterSquare {
+  width: 50%;
+}
+.fourthSection {
+  display: flex;
+  gap: 1%;
+}
+.fourthSection img {
+  width: 100%;
+}

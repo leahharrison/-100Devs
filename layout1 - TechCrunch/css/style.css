@@ -1,0 +1,78 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+nav span {
+  font-size: 150%;
+}
+main p {
+  color: gray;
+}
+.secondLi {
+  color: gray;
+}
+span {
+  font-weight: bold;
+  font-size: 0.75em;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  margin: 2%;
+}
+.firstSection {
+  display: flex;
+}
+main {
+  width: 60%;
+}
+aside {
+  width: 30%;
+}
+nav li {
+  padding: 5%;
+}
+nav img {
+  width: 80%;
+}
+main {
+  padding-right: 3%;
+}
+h1 {
+  margin: 0;
+  font-size: 250%;
+}
+.mainImage {
+  width: 100%;
+}
+aside h2 {
+  border-top: 1px solid lightgray;
+}
+h3 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.secondSection {
+  padding-left: 15%;
+}
+.threeColumns {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5%;
+  padding-left: 15%;
+}

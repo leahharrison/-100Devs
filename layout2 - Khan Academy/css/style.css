@@ -1,0 +1,60 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  font-family: helvetica;
+}
+header {
+  font-weight: 600;
+  border-bottom: 1px solid lightgray;
+}
+input {
+  background: rgb(238, 237, 237);
+  border-radius: 5px;
+  border-color: rgb(238, 237, 237);
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 300%;
+}
+a {
+  text-decoration: none;
+  color:rgb(0, 110, 255);
+}
+li {
+  list-style: none;
+}
+main a {
+  background: rgb(0, 110, 255);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  margin: 2% 10%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+  gap: 20%;
+}
+main {
+  display: flex;
+  align-items: center;
+  gap: 15%;
+}
+.kidsLearning {
+  width: 150%;
+}
+h1 {
+  margin-bottom: 0;
+}
