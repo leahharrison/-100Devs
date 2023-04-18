@@ -1,0 +1,103 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(0, 140, 255, 0.048);
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.symbols {
+  font-size: 150%;
+}
+h1, h2{
+  font-family: 'Playfair Display', serif;
+}
+h1 {
+  font-size: 400%;
+}
+main input {
+  color: gray;
+}
+main button {
+  color: white;
+  background: orange;
+  border: 1px solid orange;
+}
+ul span {
+  color: orange;
+  font-weight: 800;
+}
+.funSpan {
+  color: orange;
+}
+h2 {
+  font-size: 300%;
+}
+.firstSection a {
+  color: white;
+  background: orange;
+}
+.secondSection ul {
+  border-bottom: 1px solid orange;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  margin: 5%;
+}
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3%;
+  align-items: center;
+}
+main {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.mainOne {
+  width: 60%;
+}
+.mainTwo {
+  width: 100%;
+}
+main ul {
+  display: flex;
+  gap: 5%;
+}
+main button, .firstSection a {
+  padding: 1% 5%;
+  border-radius: 20%;
+}
+.firstSection {
+  display: flex;
+  gap: 5%;
+  margin-bottom: 5%;
+}
+.secondSection, .thirdSection, div, .fifthSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+.fourthSection {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
